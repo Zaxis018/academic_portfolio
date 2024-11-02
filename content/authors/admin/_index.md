@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Mr.
+title: Mr
 
 # Name pronunciation (optional)
 name_pronunciation: Kshitiz
