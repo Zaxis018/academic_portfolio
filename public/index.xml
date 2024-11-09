@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Academic CV Theme</title>
+    <title>Kshitiz&#39;s Portfolio</title>
     <link>http://localhost:1313/</link>
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hugo Academic CV Theme</description>
+    <description>Kshitiz&#39;s Portfolio</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
-      <title>Hugo Academic CV Theme</title>
+      <title>Kshitiz&#39;s Portfolio</title>
       <link>http://localhost:1313/</link>
     </image>
     
@@ -33,6 +33,15 @@
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including 
  such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>http://localhost:1313/blogs/</link>
+      <pubDate>Sat, 09 Nov 2024 21:30:26 +0545</pubDate>
+      <guid>http://localhost:1313/blogs/</guid>
+      <description>&lt;p&gt;Hello You can find my Blogs here!!&lt;/p&gt;
 </description>
     </item>
     
@@ -307,7 +316,7 @@
 
 
 
-&lt;div id=&#34;chart-912438576&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-567438219&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -325,7 +334,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-912438576&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-567438219&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

@@ -44,11 +44,14 @@ profiles:
 
 interests:
   - Artificial Intelligence
-  - Mathematics
   - Deep Learning
+  - Mathematics
+  - Robotics
+  - Computer Science 
+  - Physics
 
 education:
-  - area: Computer Engineering
+  - area: Bachelor's in Computer Engineering
     institution: IOE, Tribhuwan University
     date_start: 2019-08-01
     date_end: 2024-04-30
@@ -66,8 +69,9 @@ work:
     date_start: 2024-05-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - Development of Machine Learning systems
+      Responsibilities:
+      - Train/Fine-tune Deep Neural Networks and develop Machine learning Pipelines.
+      - Develop Automation solutions for business processes with python and RPA frameworks
 
 # Skills
 skills:
@@ -105,7 +109,8 @@ languages:
     percent: 90
   - name: Hindi
     percent: 60
-
+  - name: German
+    percent: 15
 # Awards
 Honors and awards:
   - title: LOCUS 2024 Winner
@@ -114,7 +119,7 @@ Honors and awards:
     awarder: LOCUS, IOE Pulchowk
     icon: coursera
     summary: |
-      # ...
+      hi
   - title: Logictronix Annual FPGA project grant Winner
     url: 
     date: '2023-07-01'
@@ -130,4 +135,4 @@ Honors and awards:
 
 ## About Me
 
-Kshitiz Poudel
+I am a Computer Engineering Grauate from IOE Thapathali Campus, Tribhuwan University . I am interested in Artificial Intelligence and currently looking for MS/Phd in AI or Computer Science.
