@@ -1,4 +1,5 @@
 ---
+
 # Display name
 title: 
 
@@ -101,6 +102,7 @@ skills:
         description: ''
         percent: 80
         icon: book
+      
 
 languages:
   - name: English
@@ -111,25 +113,19 @@ languages:
     percent: 60
   - name: German
     percent: 15
-# Awards
-Honors and awards:
+awards:
   - title: LOCUS 2024 Winner
-    url: 
+    url: https://example.com
     date: '2023-11-25'
     awarder: LOCUS, IOE Pulchowk
-    icon: coursera
     summary: |
-      hi
-  - title: Logictronix Annual FPGA project grant Winner
-    url: 
+      LOCUS is national competition/event for Electrical , Electronics and Computer Engineering Students held anually in IOE Pulchowk Campus.
+  - title: Logictronix Annual FPGA Project Grant Winner
+    url: https://example.com
     date: '2023-07-01'
-    awarder: edX
-    icon: edx
+    awarder: Logictronix Ltd.
     summary: |
-      Learned:
-      - ...
-      - ...
-      - ...
+      Awarded for excellence in FPGA-based project development.
 
 ---
 
