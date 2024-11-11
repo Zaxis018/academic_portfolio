@@ -86,10 +86,10 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+      # - name: SQL
+      #   description: ''
+      #   percent: 40
+      #   icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -102,6 +102,8 @@ skills:
         description: ''
         percent: 80
         icon: book
+
+
       
 
 languages:
@@ -113,6 +115,35 @@ languages:
     percent: 60
   - name: German
     percent: 15
+
+certifications:
+  - title: Deep Learning Specialization
+    institution: Coursera (offered by Andrew Ng, Deeplearning.ai)
+    date: '2023-05-01'
+    url: https://www.coursera.org/account/accomplishments/specialization/certificate_code
+    summary: |
+      Completed a comprehensive deep learning specialization covering neural networks, convolutional networks, sequence models, and more.
+  - title: Machine Learning
+    institution: Stanford University (Coursera)
+    date: '2022-12-15'
+    url: https://www.coursera.org/account/accomplishments/certificate/certificate_code
+    summary: |
+      Gained foundational knowledge in supervised, unsupervised, and reinforcement learning, as well as popular algorithms and techniques.
+      
+  - title: Advanced Mathematics for AI
+    institution: Khan Academy
+    date: '2023-03-10'
+    url: https://example.com
+    summary: |
+      Studied advanced mathematics topics essential for AI, including linear algebra, calculus, and probability.
+  - title: Robotics Process Automation (RPA)
+    institution: Robocorp
+    date: '2023-01-05'
+    url: https://example.com
+    summary: |
+      Completed hands-on training in RPA to automate repetitive tasks in business applications.
+
+
 awards:
   - title: LOCUS 2024 Winner
     url: https://example.com
