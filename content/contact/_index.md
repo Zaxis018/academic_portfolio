@@ -1,8 +1,85 @@
----
-title: "Contact"
-date: 2023-10-24
-# layout: "contact"
----
+
+<style>
+    /* Styling for the contact section */
+    #contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffffff;
+        background-color: #1a1a1a;
+        padding: 40px;
+        border-radius: 8px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .reading-time {
+    display: none;
+    }
+    
+    .contact-text h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .contact-text span {
+        color: #00adb5;
+    }
+
+    /* Form styling */
+    .email form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .email input, .email textarea, .email button {
+        padding: 12px;
+        border-radius: 5px;
+        border: 1px solid #333333;
+        background-color: #333333;
+        color: #ffffff;
+        font-size: 1em;
+    }
+
+    /* Input and textarea styling */
+    .email input::placeholder,
+    .email textarea::placeholder {
+        color: #888888;
+    }
+
+    .email input:focus,
+    .email textarea:focus {
+        border-color: #00adb5;
+        outline: none;
+    }
+
+    /* Button styling */
+    .email button {
+        background-color: #00adb5;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .email button:hover {
+        background-color: #007d8a;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+        #contacts {
+            padding: 20px;
+        }
+
+        .contact-text h2 {
+            font-size: 1.5em;
+        }
+    }
+</style>
 
 <section id="contacts">
     <div class="contact-text">

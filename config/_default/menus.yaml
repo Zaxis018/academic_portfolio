@@ -26,7 +26,7 @@ main:
     url: projects/
     weight: 2
   - name: Contact
-    url: contact/
+    url: /contact/
     weight: 20
   # - name: Teaching
   #   url: teaching/
