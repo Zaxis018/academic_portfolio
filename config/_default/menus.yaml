@@ -23,7 +23,7 @@ main:
     url: experience/
     weight: 15
   - name: Projects
-    url: project/
+    url: projects/
     weight: 2
   - name: Contact
     url: /contact/
