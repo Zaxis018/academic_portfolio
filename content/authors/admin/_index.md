@@ -1,11 +1,10 @@
 ---
 
 # Display name
-title: 
+title: Kshitiz Poudel
 
 # Name pronunciation (optional)
-name_pronunciation: Kshitiz
-
+name_pronunciation: 
 # Full name (for SEO)
 first_name: Kshitiz
 last_name: Poudel
@@ -56,16 +55,20 @@ education:
     institution: IOE, Tribhuwan University
     date_start: 2019-08-01
     date_end: 2024-04-30
-    summary: |
-      GPA: 3.6/4.0
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+    # summary: |
+    #   GPA: 3.6/4.0
+
+  - area: High School (Science)
+    institution: Skyrider H.S.E.B.S
+    date_start: 2017-08-01
+    date_end: 2019-05-01
+    # summary: |
+    #   GPA: 3.6/4.0
 
 work:
   - position: ML Engineer
     company_name: Quickfox Consulting
-    company_url: ''
+    company_url: 'https://quickfoxconsulting.com/'
     company_logo: ''
     date_start: 2024-05-01
     date_end: ''
@@ -73,7 +76,14 @@ work:
       Responsibilities:
       - Train/Fine-tune Deep Neural Networks and develop Machine learning Pipelines.
       - Develop Automation solutions for business processes with python and RPA frameworks
-
+  - position: AI Fellow
+    company_name: FuseMachines
+    company_url: 'https://fusemachines.com/'
+    company_logo: ''
+    date_start: 2024-05-01
+    date_end: 2024-09-01
+    summary: |2-
+      Capstone Project: Nepali Speech Recognition
 # Skills
 skills:
   - name: Technical Skills
@@ -102,8 +112,6 @@ skills:
         description: ''
         percent: 80
         icon: book
-
-
       
 
 languages:
