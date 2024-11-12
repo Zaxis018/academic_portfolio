@@ -165,7 +165,6 @@ awards:
     awarder: Logictronix Ltd.
     summary: |
       Awarded for excellence in FPGA-based project development.
-
 ---
 
 ## About Me
