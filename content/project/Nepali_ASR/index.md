@@ -1,5 +1,5 @@
 ---
-title: 2) Nepali Automatic Speech recognition
+title: Nepali Automatic Speech recognition
 date: 2024-10-26
 external_link: https://github.com/pytorch/pytorch
 tags:
