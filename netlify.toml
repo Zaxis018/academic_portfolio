@@ -20,4 +20,4 @@
   [plugins.inputs]
     debug = true
 
-
+paginate = 6

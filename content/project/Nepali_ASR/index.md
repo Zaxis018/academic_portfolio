@@ -1,7 +1,7 @@
 ---
 title: Nepali Automatic Speech recognition
 date: 2024-10-26
-external_link: https://github.com/pytorch/pytorch
+external_link: https://github.com/Zaxis018
 tags:
   - ASR
 ---
