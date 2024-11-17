@@ -2,7 +2,7 @@
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
+ 
 # Appearance
 appearance:
   mode: system
@@ -58,3 +58,5 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+paginate: 10
