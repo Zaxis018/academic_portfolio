@@ -65,9 +65,10 @@ Maintains a `queue` of arcs to process.
 
 ## Crossword as a CSP
 
+
 Each variable(word) in a crossword is represented by 4 values:
 
-```json
+```
     {
         i : coordinate of square of starting row
         j : coordinate of square of starting column
@@ -75,6 +76,8 @@ Each variable(word) in a crossword is represented by 4 values:
         direction : down or across
     }
 ```
+
+#### Domain : Initially the domain for each variable is set of all words in corpus.
 
 #### Unary constraints : length<br>
 
