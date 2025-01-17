@@ -1,6 +1,8 @@
 ---
 title: 'Projects'
 date: 2024-05-19
+paginate: 6
+paginatePath: "page"
 type: landing
 
 design:
