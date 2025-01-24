@@ -9,13 +9,13 @@ tags:
 ---
 
 ## Reinforcement Learning
-Reinforcement Learning deals with an agent (an AI) which  learns from the environment by interacting with it (through trial and error) and receiving rewards (negative or positive) as feedback for performing actions.
+Reinforcement Learning deals with an agent (an AI) which  learns from the environment by interacting with it (through trial and error) and receiving rewards (negative or positive) as feedback for performing actions. The agent needs to figure out what actions lead to rewards and how to lead upto those actions which give rewards.
 
-#### Example : Learning to ride a Bicycle
+### Example : Learning to ride a Bicycle
 
 <b>Agent</b>: The agent is the person learning to ride the cycle.
 
-<b>Environment</b>: The environment includes the cycle, the ground, obstacles, and everything around the learner. It also involves the forces acting on the bike (like balance, speed,  etc.) . Environment can be encoded into states. For example a state may be `(Angle with ground = 85 degrees, speed = 20, obstacle ahead = None, etc..  )`
+<b>Environment</b>: The environment includes the cycle, the ground, obstacles, and everything around the learner. It also involves the forces acting on the bike (like balance, speed,  etc.) . Environment can be encoded into states. For example a state may be <b>(Angle with ground = 85 degrees, speed = 20, obstacle ahead = None, etc..  )</b>
 
 <b>Actions</b>: The possible actions the agent can take include pedaling, steering left or right, leaning forward or backward, applying brakes and so on.
 
@@ -31,7 +31,7 @@ Reinforcement Learning deals with an agent (an AI) which  learns from the enviro
 ## Q-Learning
 Q-Learning is the simplest form of reinforcement learning where the Agent needs to have memory for what actions are preferrable in given states. It needs to encounter every state that could occur and what would be the outcome if a certain action is done in that state. Doing so, the agent observing its environment will perform preferrable actions
 
-Q-Learning is a  algorithm that learns a mapping from all `(state, action)` pairs to their corresponding Q-values. The Q-value for a pair represents the expected cumulative reward for taking that action in the given state and following the optimal policy thereafter.
+Q-Learning is a  algorithm that learns a mapping from all <b>(state, action)</b> pairs to their corresponding Q-values. The Q-value for a pair represents the expected cumulative reward for taking that action in the given state and following the optimal policy thereafter.
 
 
 ## Working
@@ -120,24 +120,23 @@ Q-Learning is a  algorithm that learns a mapping from all `(state, action)` pair
 <b> Updates to the Q-values is done iteratively using the formula: </b>
 
 
-`Q(s, a) <- Q(s, a) + alpha * (new value estimate - old value estimate)`<br>
+<b>Q(s, a) <- Q(s, a) + alpha * (new value estimate - old value estimate)</b>
+<br>
 ![alt text](image.png)
-<b>
+
 - The equation in the image is more general and allows giving intermediate rewards at each step and weigh the importance of future rewards
 
-- The new value estimate is the sum of immediate reward for (taking `a` action in state `s`) +  expected future rewards.
-- `s'` represents new state after taking the current action `a`.
-- `a'` represents a possible actions in the new state `s'`
-- `$\max_{a'} Q'(s', a')$` means for all actions  `a'` possible in state `s'`, We would choose the action that maximizes the Q value.
-- `γ` is the discount factor, weighing the importance of future rewards.
+- The new value estimate is the sum of immediate reward for (taking <b>a</b> action in state <b>s</b>) +  expected future rewards.
+- <b>s'</b> represents new state after taking the current action <b>a</b>.
+- <b>a'</b> represents a possible actions in the new state <b>s'</b>
+- max{a'}<b> Q'(s', a')</b> means for all actions  <b>a'</b> possible in state <b>s'</b>, We would choose the action that maximizes the Q value.
+- <b>γ</b> is the discount factor, weighing the importance of future rewards.
 </b>
 
 <b> Over time, the Q-values converge to their true values if the algorithm explores all possible **(state, action)** pairs sufficiently.</b>
 
 ### Why intermediate moves still get meaningful updates
-<b> 
 - Reward at the end propagates backward: At the end of the game, a reward (+ 1 for the winner and − 1 for the loser) is assigned to the final move. This updates the Q-value for that final state-action pair. When updating the Q-value for the second-to-last move, the algorithm takes into account the Q-value of the new state ( max ⁡ 𝑎 𝑄 ( 𝑠 ′ , 𝑎 ) max a ​ Q(s ′ ,a)), which was just updated. This way, the reward at the end of the game propagates backward through the sequence of moves. 
 
-
 - In each intermediate step, the Q-value for a move is updated based on the maximum Q-value of the next state. Over time, as the AI plays more games, the Q-values for earlier moves are refined because the values of future states become more accurate.
-</b>
+
