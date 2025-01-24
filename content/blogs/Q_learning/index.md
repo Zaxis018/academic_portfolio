@@ -136,7 +136,7 @@ Q-Learning is a  algorithm that learns a mapping from all <b>(state, action)</b>
 <b> Over time, the Q-values converge to their true values if the algorithm explores all possible **(state, action)** pairs sufficiently.</b>
 
 ### Why intermediate moves still get meaningful updates
-- Reward at the end propagates backward: At the end of the game, a reward (+ 1 for the winner and − 1 for the loser) is assigned to the final move. This updates the Q-value for that final state-action pair. When updating the Q-value for the second-to-last move, the algorithm takes into account the Q-value of the new state ( max ⁡ 𝑎 𝑄 ( 𝑠 ′ , 𝑎 ) max a ​ Q(s ′ ,a)), which was just updated. This way, the reward at the end of the game propagates backward through the sequence of moves. 
+- Reward at the end propagates backward: At the end of the game, a reward (+ 1 for the winner and − 1 for the loser) is assigned to the final move. This updates the Q-value for that final state-action pair. When updating the Q-value for the second-to-last move, the algorithm takes into account the Q-value of the new state by choosing a state  which leads to maximum future reward { max𝑎  𝑄 ( 𝑠 ′ , 𝑎′ ) }. This way, the reward at the end of the game propagates backward through the sequence of moves. 
 
 - In each intermediate step, the Q-value for a move is updated based on the maximum Q-value of the next state. Over time, as the AI plays more games, the Q-values for earlier moves are refined because the values of future states become more accurate.
 
