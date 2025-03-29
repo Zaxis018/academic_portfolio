@@ -110,7 +110,7 @@ Q-Learning is a  algorithm that learns a mapping from all <b>(state, action)</b>
 
 
 
-- Initially most Q-values are 0 . When 2 AIs play the game and game ends,some final states are updated with the reward
+- Initially most Q-values are 0 . When a AI plays (Given a state, choose one action based on existing Q-values , which leads to new state then reapeat), the game and game ends,some final states are updated with the reward
 - In the next iteration of training , these rewards are used to update Q_values for second-to-last steps by considering the future rewards 
 - In similar fashion , the information of reward is propagated to the  to all (state,action) pairs
 
@@ -140,3 +140,6 @@ Q-Learning is a  algorithm that learns a mapping from all <b>(state, action)</b>
 
 - In each intermediate step, the Q-value for a move is updated based on the maximum Q-value of the next state. Over time, as the AI plays more games, the Q-values for earlier moves are refined because the values of future states become more accurate.
 
+### Exploration vs Exploitation
+
+When we choose the next action such that we choose the maximum Q-value we mostly go down the same path. During training we would like our AI to explore more paths. Even though the current Q-value 
